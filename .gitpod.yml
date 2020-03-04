@@ -1,0 +1,5 @@
+tasks:
+  - init: pipenv sync
+    command: . /workspace/The-end3rbot/.venv/bin/activate
+image:
+  file: .gitpod.Dockerfile
